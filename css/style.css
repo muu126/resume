@@ -1,6 +1,6 @@
 h1{
 font-family: 'Staatliches', cursive;
-font-size: 80px;
+font-size: 90px;
 }
 
 h3{
@@ -9,11 +9,6 @@ font-family: 'Work Sans', sans-serif;
 
 .my-bg{
   background: #d13639;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
 }
 
 ul.timeline {
@@ -70,7 +65,7 @@ body{
 .skill-name{
   font-size: 18px;
   font-weight: 700;
-  color: black;
+  color: #f1f1f1;
   text-transform: uppercase;
   margin: 20px 0;
 }
@@ -107,7 +102,7 @@ body{
   width: 10px;
   height: 10px;
   background: #f1f1f1;
-  top: -35px;
+  top: -20px;
   right: 0;
   transform: translateX(50%) rotate(45deg);
   border-radius: 2px;

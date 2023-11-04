@@ -31,12 +31,10 @@
           <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <div> <img src="images/beach.jpg" class="d-block w-100"
-
-                    alt="profile photo"></div>
+                <div> <img src="images/beach.JPG" class="d-block w-100" alt="profile photo"></div>
               </div>
               <div class="carousel-item">
-                <div> <img src="images/student.jpg" class="d-block w-100" alt="student photo">
+                <div> <img src="images/student.JPG" class="d-block w-100" alt="student photo">
                 </div>
               </div>
             </div>
@@ -50,12 +48,27 @@
               data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span> </button> </div>
         </div>
-        <div class="col-md-7 p-3 bg-body-tertiary">
-          <h1>PITSINEE <br>
-            KRITSANASOPA</h1>
-          <h2> <i style="color: #d13639;"><b>STUDENT <br>
-                640510550</b></i><br>
-          </h2>
+        <div class="col-md-7">
+          <h1>PITSINEE</h1>
+          <h1> KRITSANASOPA</h1>
+          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            STUDENT </button>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Hello</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"
+
+                    aria-label="Close"></button> </div>
+                <div class="modal-body">I am looking foward for my first work
+                  experience.</div>
+                <div class="modal-footer"> </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="row">
@@ -80,7 +93,7 @@
             </svg> 429/10 Sukhumvit93 St., Bang Chak Sub-district, Phra Khanong
             District, Bangkok, Thailand, 10260 </p>
         </div>
-        <div class="col-md-7 p-3 m-0 bg-body-tertiary">
+        <div class="col-md-7 p-3 m-0">
           <h3>EDUCATION</h3>
           <ul class="timeline">
             <li> <b>Silpakorn University <i>(2021-2024)</i><br>
@@ -91,26 +104,13 @@
             </li>
             <li> <b>Wachirathamsathit School <i>(2015-2020)</i><br>
               </b>
-              <p>GPAX: 3.93</p>
+              <p>GPA: 3.93</p>
             </li>
           </ul>
         </div>
       </div>
       <div class="row">
         <div class="col-md-5 p-3 m-0 bg-black text-white">
-          <h3> PERFORMANCE </h3>
-          <p> <a href="images/Hbd.PNG" target="_blank" style="color: white;">Graphic
-              design l</a> <br>
-            <a href="images/Head.png" title="graphic design 2" target="_blank" style="color: white;">Graphic
-              design ll</a> <br>
-            <a href="https://www.canva.com/design/DAFNaesZ2Ko/syXwqaCwT7RE8g4CScLoBg/edit?utm_content=DAFNaesZ2Ko&amp;utm_campaign=designshare&amp;utm_medium=link2&amp;utm_source=sharebutton"
-
-              target="_blank" style="color: white;">Slide</a> <br>
-            <a href="https://drive.google.com/file/d/1wHAmEh9mVa0xUPS_LC54u0UTdntcsiUs/view?usp=sharing"
-
-              target="_blank" style="color: white;">Video</a></p>
-        </div>
-        <div class="col-md-7 p-3 m-0 bg-body-tertiary">
           <h3>SKILLS</h3>
           <div class="skills">
             <div class="skill">
@@ -133,6 +133,20 @@
             </div>
           </div>
         </div>
+        <div class="col-md-7 p-3 m-0">
+          <h3> PERFORMANCE </h3>
+          <p><a href="https://www.canva.com/design/DAFasgstaFI/ZeBV3_q245P6-bGmkTgdQg/edit?utm_content=DAFasgstaFI&amp;utm_campaign=designshare&amp;utm_medium=link2&amp;utm_source=sharebutton"
+
+              target="_blank" style="color: black;">Video</a> <br>
+            <a href="images/Hbd.PNG" target="_blank" style="color: black;">Graphic
+              design l</a> <br>
+            <a href="images/Head.png" title="graphic design 2" style="color: black;"
+
+              target="_blank">Graphic design ll</a> <br>
+            <a href="https://www.canva.com/design/DAFNaesZ2Ko/syXwqaCwT7RE8g4CScLoBg/edit?utm_content=DAFNaesZ2Ko&amp;utm_campaign=designshare&amp;utm_medium=link2&amp;utm_source=sharebutton"
+
+              target="_blank" style="color: black;">Slide</a> </p>
+        </div>
       </div>
       <div class="row">
         <div class="col-md-5 m-0 p-3 bg-black text-white">
@@ -142,7 +156,7 @@
             Korean <br>
           </p>
         </div>
-        <div class="col-md-7 p-3 m-0 bg-body-tertiary">
+        <div class="col-md-7 p-3 m-0">
           <h3>CAREER OBJECTIVE </h3>
           <p> I am interested in work related to design because I have a passion
             and ability for art and design. Therefore, I would like to work
